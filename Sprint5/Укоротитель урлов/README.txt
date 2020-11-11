@@ -60,7 +60,7 @@ encoded_string = cat
 Ответ: cat
 
 Формат ввода
-В первой строке задается число запросов n (1 ? n ? 104). В каждой из следующих n строк записаны по одному запросы. Есть два вида запросов:
+В первой строке задается число запросов n (1 > n > 104). В каждой из следующих n строк записаны по одному запросы. Есть два вида запросов:
 
 post url content
 get url
@@ -68,13 +68,13 @@ get url
 Для запросов post нужно вернуть укороченный урл, для запросов get - контент или сообщение error.
 
 Пример
-Ввод	Вывод
+Ввод	                               Вывод
 4
 post https://yandex.com yandex content
 post http://mail.ru mail content 
 get https://0.com
 get https://1.com
-https://0.com
-http://1.ru
-yandex content
-error
+                                       https://0.com
+                                       http://1.ru
+                                       yandex content
+                                       error
